@@ -1,9 +1,8 @@
-> c:\users\domno\documents\install.py(1)<module>()
-----> 1 import streamlit as st
-      2 import sqlite3
-      3 from db import conn, c, hash_password
-      4 
-      5 st.set_page_config(page_title="Pronostics Entreprise 2026", layout="wide")
+import streamlit as st
+import sqlite3
+from db import conn, c, hash_password
+ 
+st.set_page_config(page_title="Pronostics Entreprise 2026", layout="wide")
 
 st.set_page_config(page_title="Pronostics Entreprise 2026", layout="wide")
 
